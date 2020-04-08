@@ -40,7 +40,7 @@ class myBinarySearchTreeNode{
   public int depth(int search){
      // This method recursively calculates the depth of a given search value. 
      // If the given value is not in the tree, this method returns -1. 
-     // Note that if the tree is a proper BST, this method should complete in O(n*log n) time.
+     // Note that if the tree is a proper BST, this method should complete in O(log n) time.
   }
   
 } 
