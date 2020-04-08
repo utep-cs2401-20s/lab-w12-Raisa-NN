@@ -35,6 +35,8 @@ class myBinarySearchTreeNode{
      // This method recursively calculates the depth of a given search value. 
      // If the given value is not in the tree, this method returns -1. 
      // Note that if the tree is a proper BST, this method should complete in O(log n) time.
+     // Additionally, remember that the depth is the number of nodes on the path from a node to the root 
+     // (i.e. the number of the recursie calls).
     return -1;
   }
   
