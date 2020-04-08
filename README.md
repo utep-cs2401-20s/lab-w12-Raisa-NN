@@ -41,6 +41,8 @@ class myBinarySearchTreeNode{
      // This method recursively calculates the depth of a given search value. 
      // If the given value is not in the tree, this method returns -1. 
      // Note that if the tree is a proper BST, this method should complete in O(log n) time.
+     // Additionally, remember that the depth is the number of nodes on the path from a node to the root 
+     // (i.e. the number of the recursie calls).
   }
   
 } 
@@ -61,8 +63,12 @@ Lateness rule: -10 pts for 1 day of lateness / - 20 pts for 2 days of lateness /
 
 ### Grading: 
 
-70 pts	Method `myBinarySearchTreeNode.java` <br />
-50 pts	JUnit tests for method your binary tree in `myBinarySearchTreeTester.java `(10 pts per test case / of which, 5 pts for the justification and 5 pts for the implementation)
+70 pts  `myBinarySearchTreeNode` class <br />
+  20 pts  `myBinarySearchTreeNode(int[] A)`<br />
+  20 pts  `public void insert(int inValue)`<br />
+  15 pts  `public int height()`<br \>
+  15 pts  `public int depth(int search)`<br \>
+30 pts	JUnit tests for method your binary tree in `myBinarySearchTreeTester.java `(6 pts per test case / of which, 3 pts for the justification and 3 pts for the implementation)
 
 ### Subggested Schedule
 Monday -- Create the test cases & the constructor
