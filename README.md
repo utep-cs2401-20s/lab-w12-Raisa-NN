@@ -63,12 +63,15 @@ Lateness rule: -10 pts for 1 day of lateness / - 20 pts for 2 days of lateness /
 
 ### Grading: 
 
-70 pts  `myBinarySearchTreeNode` class <br />
-  20 pts  `myBinarySearchTreeNode(int[] A)`<br />
-  20 pts  `public void insert(int inValue)`<br />
-  15 pts  `public int height()`<br \>
-  15 pts  `public int depth(int search)`<br \>
-30 pts	JUnit tests for method your binary tree in `myBinarySearchTreeTester.java `(6 pts per test case / of which, 3 pts for the justification and 3 pts for the implementation)
+* 70 pts  `myBinarySearchTreeNode` class
+  * 20 pts  `myBinarySearchTreeNode(int[] A)`
+  * 20 pts  `public void insert(int inValue)`
+  * 15 pts  `public int height()`
+  * 15 pts  `public int depth(int search)`
+* 30 pts	JUnit tests for method your binary tree in `myBinarySearchTreeTester.java `
+  * 6 pts per test case
+    * 3 pts for the justification and 
+    * 3 pts for the implementation)
 
 ### Subggested Schedule
 Monday -- Create the test cases & the constructor
