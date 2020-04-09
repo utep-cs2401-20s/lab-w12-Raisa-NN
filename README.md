@@ -1,6 +1,10 @@
 # Week 12
 
-In this weeks lab, the goal is to get more comfortable creating and travering binary search trees. 
+In this weeks lab, the goal is to get more comfortable creating and travering binary search trees. You will need to calculate some values related to the tree itself or specific nodes in the tree. In partilcular you will calculate the size and height of the tree and the depth of a specific node. 
+
+![](images/depth_height.png)
+
+Remember that the height of the tree is the number of levels and the depth of a node is the number of edges from the root to that node (the depth of the root is 0). 
 
 ### Your task
 Given an array of `int`s we want to create a new binary search tree by repeatedly inserting the elements of the array in the order in which they are given. 
@@ -70,8 +74,9 @@ Lateness rule: -10 pts for 1 day of lateness / - 20 pts for 2 days of lateness /
 * 70 pts  `myBinarySearchTreeNode` class
   * 20 pts  `myBinarySearchTreeNode(int[] A)`
   * 20 pts  `public void insert(int inValue)`
-  * 15 pts  `public int height()`
-  * 15 pts  `public int depth(int search)`
+  * 10 pts  `public int height()`
+  * 10 pts  `public int depth(int search)`
+  * 10 pts  `public int size()`
 * 30 pts	JUnit tests for method your binary tree in `myBinarySearchTreeTester.java `
   * 6 pts per test case
     * 3 pts for the justification and 
