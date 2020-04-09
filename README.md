@@ -80,7 +80,7 @@ Lateness rule: -10 pts for 1 day of lateness / - 20 pts for 2 days of lateness /
 * 30 pts	JUnit tests for method your binary tree in `myBinarySearchTreeTester.java `
   * 6 pts per test case
     * 3 pts for the justification and 
-    * 3 pts for the implementation)
+    * 3 pts for the implementation
 
 ### Subggested Schedule
 Monday -- Create the test cases & the constructor
