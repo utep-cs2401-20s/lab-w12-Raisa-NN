@@ -2,7 +2,7 @@
 
 In this weeks lab, the goal is to get more comfortable creating and travering binary search trees. You will need to calculate some values related to the tree itself or specific nodes in the tree. In partilcular you will calculate the size and height of the tree and the depth of a specific node. 
 
-![](images/depth_height.png|width=100)
+![](images/depth_height.png)
 
 Remember that the height of the tree is the number of levels and the depth of a node is the number of edges from the root to that node (the depth of the root is 0). In the example above, the height of the tree is 5, and the depth of `x` is 2.
 
