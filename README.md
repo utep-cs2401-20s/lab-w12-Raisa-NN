@@ -1,6 +1,6 @@
 # Week 12
 
-In this weeks lab, the goal is to get more comfortable creating and travering binary search trees. You will need to calculate some values related to the tree itself or specific nodes in the tree. In partilcular you will calculate the size and height of the tree and the depth of a specific node. 
+In this weeks lab, the goal is to get more comfortable creating and traversing binary search trees. You will need to calculate some values related to the tree itself or specific nodes in the tree. In particular you will calculate the size and height of the tree and the depth of a specific node. 
 
 ![](images/depth_height.png)
 
@@ -46,7 +46,7 @@ class myBinarySearchTreeNode{
      // If the given value is not in the tree, this method returns -1. 
      // Note that if the tree is a proper BST, this method should complete in O(log n) time.
      // Additionally, remember that the depth is the number of nodes on the path from a node to the root 
-     // (i.e. the number of the recursie calls).
+     // (i.e. the number of recursive calls).
   }
   
   public int size(){
@@ -82,6 +82,6 @@ Lateness rule: -10 pts for 1 day of lateness / - 20 pts for 2 days of lateness /
     * 3 pts for the justification and 
     * 3 pts for the implementation
 
-### Subggested Schedule
+### Suggested Schedule
 Monday -- Create the test cases & the constructor <br />
 Wednesday -- Create the search, and height methods & test. 
