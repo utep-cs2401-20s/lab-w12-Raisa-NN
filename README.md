@@ -45,6 +45,10 @@ class myBinarySearchTreeNode{
      // (i.e. the number of the recursie calls).
   }
   
+  public int size(){
+     // This method recursively calculates the number of nodes in the (sub)tree.
+  }
+  
 } 
 ```
 
