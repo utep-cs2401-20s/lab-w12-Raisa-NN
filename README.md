@@ -4,7 +4,7 @@ In this weeks lab, the goal is to get more comfortable creating and travering bi
 
 ![](images/depth_height.png)
 
-Remember that the height of the tree is the number of levels and the depth of a node is the number of edges from the root to that node (the depth of the root is 0). 
+Remember that the height of the tree is the number of levels and the depth of a node is the number of edges from the root to that node (the depth of the root is 0). In the example above, the height of the tree is 5, and the depth of `x` is 2.
 
 ### Your task
 Given an array of `int`s we want to create a new binary search tree by repeatedly inserting the elements of the array in the order in which they are given. 
