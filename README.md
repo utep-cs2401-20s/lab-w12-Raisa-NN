@@ -83,5 +83,5 @@ Lateness rule: -10 pts for 1 day of lateness / - 20 pts for 2 days of lateness /
     * 3 pts for the implementation
 
 ### Subggested Schedule
-Monday -- Create the test cases & the constructor
+Monday -- Create the test cases & the constructor <br />
 Wednesday -- Create the search, and height methods & test. 
